@@ -37,7 +37,7 @@ This project is designed to take in a Yale Lux Search URL and identify potential
 
     ### Windows
 
-    - Download the ChromeDriver from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads).
+    - Download the ChromeDriver from [here](https://developer.chrome.com/docs/chromedriver/downloads).
     - Extract the downloaded file and place it in a directory of your choice.
     - Add the directory containing `chromedriver.exe` to your system's PATH environment variable.
 
@@ -51,7 +51,7 @@ This project is designed to take in a Yale Lux Search URL and identify potential
 
     ### Linux
 
-    - Download the ChromeDriver from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads).
+    - Download the ChromeDriver from [here](https://developer.chrome.com/docs/chromedriver/downloads).
     - Extract the downloaded file and place it in a directory of your choice.
     - Add the directory containing `chromedriver` to your system's PATH environment variable.
 
