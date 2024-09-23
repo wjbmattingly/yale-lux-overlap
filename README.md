@@ -23,8 +23,8 @@ This project is designed to take in a Yale Lux Search URL and identify potential
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/yale-lux-search-overlap-identifier.git
-    cd yale-lux-search-overlap-identifier
+    git clone https://github.com/wjbmattingly/yale-lux-overlap
+    cd yale-lux-overlap
     ```
 
 2. Install the required Python packages:
