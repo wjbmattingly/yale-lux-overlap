@@ -1,0 +1,5 @@
+anytree
+nameparser
+selenium
+tqdm
+beautifulsoup4
