@@ -45,7 +45,7 @@ def extract_entries(base_url):
         print("An error occurred. Assuming it's a single page.")
         max_page = 1
 
-    for page_num in tqdm(range(1, max_page + 1)):
+    for page_num in tqdm(range(1, max_page + 1), desc="Extracting entries from pages."):
         page_url = f"{base_url}&ap={page_num}"
 
         # Load the page
