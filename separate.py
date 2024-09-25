@@ -16,13 +16,13 @@ def process_url(url, output='output.txt'):
     entries = check_parentheses(entries)
     entries = extract_parentheticals(entries)
     entries = remove_parentheticals(entries)
-    entries = move_lastname(entries)
+    entries = move_lastname(entries)    
     entries = extract_name_parts(entries)
 
     # Create tree
     tree = create_tree(entries)
 
-    # Check if output file exists
+    # Check if output file exists       
     if os.path.exists(output):
         print(f"Warning: Overwriting existing file {output}")
 
